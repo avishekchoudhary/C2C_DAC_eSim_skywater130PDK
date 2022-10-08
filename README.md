@@ -213,10 +213,9 @@ plot v(op_in)
 2. Clone this project using the following command:</br>
 ```git clone https://github.com/avishekchoudhary/C2C_DAC_eSim_skywater130PDK/edit/master/README.md ```</br>
 3. Change directory:</br>```cd eSim_project_files/avishek_10bit_DAC```</br>
-4. Add ```avishek_DACSwitch to subcircuit``` libary.
+4. Add ```avishek_DACSwitch``` to subcircuit libary.
 5. Run ngspice:</br>```ngspice avishek_10bit_DAC.cir.out```</br>
 5. To run the project in eSim:
-
   - Run eSim</br>
   - Load the project</br>
   - Open eeSchema</br>
