@@ -1,0 +1,14 @@
+* Subcircuit dacSwitch_subckt
+.subckt dacSwitch_subckt /pulse_input /vdd_driver net-_sc1-pad1_ net-_sc5-pad3_ 
+* /home/choudharyabhi2015/esim-2.3/library/subcircuitlibrary/dacswitch_subckt/dacswitch_subckt.cir
+
+xsc1 net-_sc1-pad1_ /pulse_input gnd /vdd_driver sky130_fd_pr__pfet_01v8
+xsc4 net-_sc1-pad1_ net-_sc2-pad1_ gnd gnd sky130_fd_pr__nfet_01v8
+xsc5 net-_sc1-pad1_ net-_sc2-pad1_ net-_sc5-pad3_ /vdd_driver sky130_fd_pr__pfet_01v8
+xsc6 net-_sc1-pad1_ /pulse_input net-_sc5-pad3_ gnd sky130_fd_pr__nfet_01v8
+* s c m o d e
+xsc2 net-_sc2-pad1_ /pulse_input /vdd_driver /vdd_driver sky130_fd_pr__pfet_01v8
+xsc3 net-_sc2-pad1_ /pulse_input gnd gnd sky130_fd_pr__nfet_01v8
+* Control Statements
+
+.ends dacSwitch_subckt

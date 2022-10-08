@@ -1,0 +1,2477 @@
+optran: no such command available in ngspice
+
+Compatibility modes selected: hs a
+
+Warning: m=xx on .subckt line will override multiplier m hierarchy!
+
+Warning: redefinition of .subckt sky130_fd_pr__model__parasitic__res_po, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_xhigh_po, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_high_po, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_xhigh_po_0p35, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_xhigh_po_0p69, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_xhigh_po_1p41, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_xhigh_po_2p85, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_xhigh_po_5p73, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_xhigh_po__base, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_high_po_0p35, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_high_po_0p69, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_high_po_1p41, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_high_po_2p85, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_high_po_5p73, ignored
+Warning: redefinition of .subckt sky130_fd_pr__pnp_05v5_w0p68l0p68, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_generic_po, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_generic_nd, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_generic_pd, ignored
+
+Circuit: * /home/choudharyabhi2015/esim-workspace/avishek_10bit_dac/avishek_10bit_dac.cir
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: include: has no value, DC 0 assumed
+Warning: v3: no DC value, transient time 0 value used
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=0
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=0
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=0
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=0
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=0
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=1
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=1
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=1
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=1
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=1
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=1
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=1
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=1
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=2
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=2
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=2
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=2
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=2
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=2
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=2
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=2
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=3
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=3
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=3
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=3
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=3
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=3
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=3
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=3
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=4
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=4
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=4
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=4
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=4
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=4
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=4
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=4
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=5
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=5
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=5
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=5
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=5
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=5
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=5
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=5
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=6
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=6
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=6
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=6
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=6
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=6
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=6
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=6
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=7
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=7
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=7
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=7
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=7
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=7
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=7
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=7
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=8
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=8
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=8
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=8
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=8
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=8
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=8
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=8
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=9
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=9
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=9
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=9
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=9
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=9
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=9
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=9
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=10
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=10
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=10
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=10
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=10
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=10
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=10
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=10
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=11
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=11
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=11
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=11
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=11
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=11
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=11
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=11
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=12
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=12
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=12
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=12
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=12
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=12
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=12
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=12
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=13
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=13
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=13
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=13
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=13
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=13
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=13
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=13
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=14
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=14
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=14
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=14
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=14
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=14
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=14
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=14
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=15
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=15
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=15
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=15
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=15
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=15
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=15
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=15
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=16
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=16
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=16
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=16
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=16
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=16
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=16
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=16
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=17
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=17
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=17
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=17
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=17
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=17
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=17
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=17
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=18
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=18
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=18
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=18
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=18
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=18
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=18
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=18
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=19
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=19
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=19
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=19
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=19
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=19
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=19
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=19
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=20
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=20
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=20
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=20
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=20
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=20
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=20
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=20
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=21
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=21
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=21
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=21
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=21
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=21
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=21
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=21
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=22
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=22
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=22
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=22
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=22
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=22
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=22
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=22
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=23
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=23
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=23
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=23
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=23
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=23
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=23
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=23
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=24
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=24
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=24
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=24
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=24
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=24
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=24
+=============avishek_10bitcounter : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=24
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=25
+doAnalyses: TRAN:  Timestep too small; time = 48.0037, timestep = 1.25e-13: trouble with node "a3#branch_1_0"
+
+
+run simulation(s) aborted
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+binary raw file "/home/choudharyabhi2015/eSim-Workspace/avishek_10bit_DAC/avishek_10bit_DAC.raw"
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: include: has no value, DC 0 assumed
+Warning: v3: no DC value, transient time 0 value used
+No. of Data Columns : 279  
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=0
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=0
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=0
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=0
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=0
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=1
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=1
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=1
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=1
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=1
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=1
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=1
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=1
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=2
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=2
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=2
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=2
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=2
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=2
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=2
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=2
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=3
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=3
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=3
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=3
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=3
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=3
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=3
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=3
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=4
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=4
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=4
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=4
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=4
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=4
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=4
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=4
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=5
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=5
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=5
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=5
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=5
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=5
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=5
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=5
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=6
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=6
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=6
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=6
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=6
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=6
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=6
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=6
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=7
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=7
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=7
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=7
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=7
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=7
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=7
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=7
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=8
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=8
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=8
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=8
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=8
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=8
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=8
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=8
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=9
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=9
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=9
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=9
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=9
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=9
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=9
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=9
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=10
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=10
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=10
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=10
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=10
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=10
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=10
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=10
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=11
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=11
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=11
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=11
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=11
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=11
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=11
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=11
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=12
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=12
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=12
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=12
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=12
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=12
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=12
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=12
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=13
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=13
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=13
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=13
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=13
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=13
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=13
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=13
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=14
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=14
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=14
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=14
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=14
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=14
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=14
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=14
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=15
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=15
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=15
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=15
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=15
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=15
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=15
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=15
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=16
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=16
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=16
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=16
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=16
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=16
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=16
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=16
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=17
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=17
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=17
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=17
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=17
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=17
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=17
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=17
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=18
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=18
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=18
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=18
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=18
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=18
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=18
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=18
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=19
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=19
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=19
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=19
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=19
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=19
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=19
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=19
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=20
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=20
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=20
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=20
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=20
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=20
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=20
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=20
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=21
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=21
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=21
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=21
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=21
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=21
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=21
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=21
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=22
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=22
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=22
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=22
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=22
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=22
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=22
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=22
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=23
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=23
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=23
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=23
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=23
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=23
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=23
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=23
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=24
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=24
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=24
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=24
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=24
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=24
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=24
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=0
+rst=0
+count=24
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=25
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=25
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=25
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=25
+
+Inside foo after eval.....
+clk=1
+rst=0
+count=25
+=============avishek_10bitcounter : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+clk=1
+rst=0
+count=25
+
+Inside foo after eval.....
+clk=0
+rst=0
+count=25
+
+No. of Data Rows : 2103
+
+Total analysis time (seconds) = 2.30961
+
+Total CPU time (seconds) = 13.775 
+
+Total DRAM available = 257855.305 MB.
+DRAM currently available = 233705.188 MB.
+Maximum ngspice program size =  397.562 MB.
+Current ngspice program size =  332.164 MB.
+
+Shared ngspice pages =   10.105 MB.
+Text (code) pages =    6.285 MB.
+Stack = 0 bytes.
+Library pages =  325.238 MB.
+

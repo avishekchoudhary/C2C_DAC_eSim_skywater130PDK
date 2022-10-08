@@ -1,0 +1,18 @@
+* /home/choudharyabhi2015/eSim-2.3/library/SubcircuitLibrary/dacSwitch_subckt/dacSwitch_subckt.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Tue 04 Oct 2022 01:23:23 PM IST
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+SC1  Net-_SC1-Pad1_ /Pulse_input GND /Vdd_Driver sky130_fd_pr__pfet_01v8		
+SC4  Net-_SC1-Pad1_ Net-_SC2-Pad1_ GND GND sky130_fd_pr__nfet_01v8		
+SC5  Net-_SC1-Pad1_ Net-_SC2-Pad1_ Net-_SC5-Pad3_ /Vdd_Driver sky130_fd_pr__pfet_01v8		
+SC6  Net-_SC1-Pad1_ /Pulse_input Net-_SC5-Pad3_ GND sky130_fd_pr__nfet_01v8		
+scmode1  SKY130mode		
+SC2  Net-_SC2-Pad1_ /Pulse_input /Vdd_Driver /Vdd_Driver sky130_fd_pr__pfet_01v8		
+SC3  Net-_SC2-Pad1_ /Pulse_input GND GND sky130_fd_pr__nfet_01v8		
+U1  /Pulse_input /Vdd_Driver Net-_SC1-Pad1_ Net-_SC5-Pad3_ PORT		
+
+.end

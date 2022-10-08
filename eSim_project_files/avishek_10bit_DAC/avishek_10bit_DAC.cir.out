@@ -1,0 +1,73 @@
+* /home/choudharyabhi2015/esim-workspace/avishek_10bit_dac/avishek_10bit_dac.cir
+
+.include dacSwitch_subckt.sub
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__diode_pd2nw_11v0.model.spice"
+.lib "/usr/share/local/sky130_fd_pr/models/sky130.lib.spice" tt
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__linear.model.spice"
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__diode_pw2nd_11v0.model.spice"
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__inductors.model.spice"
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__pnp.model.spice"
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__r+c.model.spice"
+* u3  input gnd net-_u1-pad1_ net-_u1-pad2_ adc_bridge_2
+* u2  net-_u1-pad12_ net-_u1-pad11_ net-_u1-pad10_ net-_u1-pad9_ net-_u1-pad8_ net-_u2-pad6_ net-_u2-pad7_ net-_u2-pad8_ net-_u2-pad9_ net-_u2-pad10_ dac_bridge_5
+* u4  net-_u1-pad7_ net-_u1-pad6_ net-_u1-pad5_ net-_u1-pad4_ net-_u1-pad3_ net-_u4-pad6_ net-_u4-pad7_ net-_u4-pad8_ net-_u4-pad9_ net-_u4-pad10_ dac_bridge_5
+x3 net-_u2-pad8_ net-_x1-pad2_ net-_sc6-pad1_ net-_x1-pad4_ dacSwitch_subckt
+x4 net-_u2-pad9_ net-_x1-pad2_ net-_sc8-pad1_ net-_x1-pad4_ dacSwitch_subckt
+x5 net-_u2-pad10_ net-_x1-pad2_ net-_sc10-pad1_ net-_x1-pad4_ dacSwitch_subckt
+x6 net-_u4-pad6_ net-_x1-pad2_ net-_sc12-pad1_ net-_x1-pad4_ dacSwitch_subckt
+x7 net-_u4-pad7_ net-_x1-pad2_ net-_sc14-pad1_ net-_x1-pad4_ dacSwitch_subckt
+x8 net-_u4-pad8_ net-_x1-pad2_ net-_sc16-pad1_ net-_x1-pad4_ dacSwitch_subckt
+x9 net-_u4-pad9_ net-_x1-pad2_ net-_sc19-pad1_ net-_x1-pad4_ dacSwitch_subckt
+x10 net-_u4-pad10_ net-_x1-pad2_ net-_sc21-pad1_ net-_x1-pad4_ dacSwitch_subckt
+v1 net-_x1-pad2_ gnd  dc 1.8
+v2 net-_x1-pad4_ gnd  dc 1.8
+v3  input gnd pulse(0 2 0 0 0 1 2)
+* s c m o d e
+* u6  input plot_v1
+xsc3 net-_sc3-pad1_ net-_sc1-pad2_ sky130_fd_pr__cap_mim_m3_1 W=200u;L=120;MF=1;
+x1 net-_u2-pad6_ net-_x1-pad2_ net-_sc3-pad1_ net-_x1-pad4_ dacSwitch_subckt
+xsc2 net-_sc1-pad2_ gnd sky130_fd_pr__cap_mim_m3_1 W=200u;L=240;MF=1;
+x2 net-_u2-pad7_ net-_x1-pad2_ net-_sc4-pad1_ net-_x1-pad4_ dacSwitch_subckt
+xsc1 net-_sc1-pad1_ net-_sc1-pad2_ sky130_fd_pr__cap_mim_m3_1 W=200u;L=240;MF=1;
+xsc4 net-_sc4-pad1_ net-_sc1-pad1_ sky130_fd_pr__cap_mim_m3_1 W=200u;L=120;MF=1;
+xsc6 net-_sc6-pad1_ net-_sc5-pad1_ sky130_fd_pr__cap_mim_m3_1 W=200u;L=120;MF=1;
+xsc5 net-_sc5-pad1_ net-_sc1-pad1_ sky130_fd_pr__cap_mim_m3_1 W=200u;L=240;MF=1;
+xsc7 net-_sc7-pad1_ net-_sc5-pad1_ sky130_fd_pr__cap_mim_m3_1 W=200u;L=240;MF=1;
+xsc8 net-_sc8-pad1_ net-_sc7-pad1_ sky130_fd_pr__cap_mim_m3_1 W=200u;L=120;MF=1;
+xsc9 net-_sc10-pad2_ net-_sc7-pad1_ sky130_fd_pr__cap_mim_m3_1 W=200u;L=240;MF=1;
+xsc10 net-_sc10-pad1_ net-_sc10-pad2_ sky130_fd_pr__cap_mim_m3_1 W=200u;L=120;MF=1;
+xsc12 net-_sc12-pad1_ net-_sc11-pad1_ sky130_fd_pr__cap_mim_m3_1 W=200u;L=240;MF=1;
+xsc11 net-_sc11-pad1_ net-_sc10-pad2_ sky130_fd_pr__cap_mim_m3_1 W=200u;L=120;MF=1;
+xsc13 net-_sc13-pad1_ net-_sc11-pad1_ sky130_fd_pr__cap_mim_m3_1 W=200u;L=120;MF=1;
+xsc14 net-_sc14-pad1_ net-_sc13-pad1_ sky130_fd_pr__cap_mim_m3_1 W=200u;L=240;MF=1;
+xsc16 net-_sc16-pad1_ net-_sc15-pad1_ sky130_fd_pr__cap_mim_m3_1 W=200u;L=120;MF=1;
+xsc15 net-_sc15-pad1_ net-_sc13-pad1_ sky130_fd_pr__cap_mim_m3_1 W=200u;L=240;MF=1;
+xsc18 net-_sc18-pad1_ net-_sc15-pad1_ sky130_fd_pr__cap_mim_m3_1 W=200u;L=240;MF=1;
+xsc20 op_in net-_sc18-pad1_ sky130_fd_pr__cap_mim_m3_1 W=200u;L=240;MF=1;
+xsc19 net-_sc19-pad1_ net-_sc18-pad1_ sky130_fd_pr__cap_mim_m3_1 W=200u;L=120;MF=1;
+xsc21 net-_sc21-pad1_ op_in sky130_fd_pr__cap_mim_m3_1 W=200u;L=120;MF=1;
+* u1  net-_u1-pad1_ net-_u1-pad2_ net-_u1-pad3_ net-_u1-pad4_ net-_u1-pad5_ net-_u1-pad6_ net-_u1-pad7_ net-_u1-pad8_ net-_u1-pad9_ net-_u1-pad10_ net-_u1-pad11_ net-_u1-pad12_ avishek_10bitcounter
+* u7  op_in plot_v1
+a1 [input gnd ] [net-_u1-pad1_ net-_u1-pad2_ ] u3
+a2 [net-_u1-pad12_ net-_u1-pad11_ net-_u1-pad10_ net-_u1-pad9_ net-_u1-pad8_ ] [net-_u2-pad6_ net-_u2-pad7_ net-_u2-pad8_ net-_u2-pad9_ net-_u2-pad10_ ] u2
+a3 [net-_u1-pad7_ net-_u1-pad6_ net-_u1-pad5_ net-_u1-pad4_ net-_u1-pad3_ ] [net-_u4-pad6_ net-_u4-pad7_ net-_u4-pad8_ net-_u4-pad9_ net-_u4-pad10_ ] u4
+a4 [net-_u1-pad1_ ] [net-_u1-pad2_ ] [net-_u1-pad3_ net-_u1-pad4_ net-_u1-pad5_ net-_u1-pad6_ net-_u1-pad7_ net-_u1-pad8_ net-_u1-pad9_ net-_u1-pad10_ net-_u1-pad11_ net-_u1-pad12_ ] u1
+* Schematic Name:                             adc_bridge_2, NgSpice Name: adc_bridge
+.model u3 adc_bridge(in_low=0 in_high=2 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_5, NgSpice Name: dac_bridge
+.model u2 dac_bridge(out_low=0 out_high=2 out_undef=0 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_5, NgSpice Name: dac_bridge
+.model u4 dac_bridge(out_low=0 out_high=2 out_undef=0 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             avishek_10bitcounter, NgSpice Name: avishek_10bitcounter
+.model u1 avishek_10bitcounter(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+.tran 0.1e-00 50e-00 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(input)
+plot v(op_in)
+.endc
+.end

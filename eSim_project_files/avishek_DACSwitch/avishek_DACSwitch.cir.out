@@ -1,0 +1,32 @@
+* /home/choudharyabhi2015/esim-workspace/avishek_dacswitch/avishek_dacswitch.cir
+
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__r+c.model.spice"
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__diode_pw2nd_11v0.model.spice"
+.lib "/usr/share/local/sky130_fd_pr/models/sky130.lib.spice" tt
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__inductors.model.spice"
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__diode_pd2nw_11v0.model.spice"
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__pnp.model.spice"
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__linear.model.spice"
+xsc1 output pulse_input gnd net-_sc1-pad4_ sky130_fd_pr__pfet_01v8 
+xsc2 output net-_sc2-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc3 output net-_sc2-pad2_ net-_sc3-pad3_ net-_sc1-pad4_ sky130_fd_pr__pfet_01v8 
+xsc4 output pulse_input net-_sc3-pad3_ gnd sky130_fd_pr__nfet_01v8 
+v2 net-_sc3-pad3_ gnd  dc 1
+v1 net-_sc1-pad4_ gnd  dc 1.8
+* u1  pulse_input plot_v1
+v3  pulse_input gnd pulse(0 1.8 0 0.1m 0.1m 1 2)
+* s c m o d e
+* u3  output plot_v1
+xsc5 net-_sc2-pad2_ pulse_input net-_sc1-pad4_ net-_sc1-pad4_ sky130_fd_pr__pfet_01v8 
+xsc6 net-_sc2-pad2_ pulse_input gnd gnd sky130_fd_pr__nfet_01v8 
+.tran 0.1e-00 20e-00 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(pulse_input)
+plot v(output)
+.endc
+.end

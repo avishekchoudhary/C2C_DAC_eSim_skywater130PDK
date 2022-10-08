@@ -1,0 +1,22 @@
+* /home/choudharyabhi2015/eSim-Workspace/avishek_DACSwitch/avishek_DACSwitch.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Mon 03 Oct 2022 02:41:51 AM IST
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+SC1  Output pulse_input GND Net-_SC1-Pad4_ sky130_fd_pr__pfet_01v8		
+SC2  Output Net-_SC2-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC3  Output Net-_SC2-Pad2_ Net-_SC3-Pad3_ Net-_SC1-Pad4_ sky130_fd_pr__pfet_01v8		
+SC4  Output pulse_input Net-_SC3-Pad3_ GND sky130_fd_pr__nfet_01v8		
+v2  Net-_SC3-Pad3_ GND DC		
+v1  Net-_SC1-Pad4_ GND DC		
+U1  pulse_input plot_v1		
+v3  pulse_input GND pulse		
+scmode1  SKY130mode		
+U3  Output plot_v1		
+SC5  Net-_SC2-Pad2_ pulse_input Net-_SC1-Pad4_ Net-_SC1-Pad4_ sky130_fd_pr__pfet_01v8		
+SC6  Net-_SC2-Pad2_ pulse_input GND GND sky130_fd_pr__nfet_01v8		
+
+.end

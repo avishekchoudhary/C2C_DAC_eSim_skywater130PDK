@@ -1,0 +1,28 @@
+* /home/choudharyabhi2015/esim-workspace/test_switch/test_switch.cir
+
+.include dacSwitch_subckt.sub
+.lib "/usr/share/local/sky130_fd_pr/models/sky130.lib.spice" tt
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__r+c.model.spice"
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__diode_pw2nd_11v0.model.spice"
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__diode_pd2nw_11v0.model.spice"
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__linear.model.spice"
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__pnp.model.spice"
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__inductors.model.spice"
+x1 in net-_x1-pad2_ out net-_x1-pad4_ dacSwitch_subckt
+v2 net-_x1-pad2_ gnd  dc 1.8
+v3 net-_x1-pad4_ gnd  dc 1
+v1  in gnd pulse(0 2 0 0.1m 0.1m 1 4)
+* u1  in plot_v1
+* u2  out plot_v1
+* s c m o d e
+.tran 0.1e-00 20e-00 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(in)
+plot v(out)
+.endc
+.end

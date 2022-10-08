@@ -1,0 +1,50 @@
+* /home/choudharyabhi2015/eSim-Workspace/avishek_10bit_DAC/avishek_10bit_DAC.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Sat 08 Oct 2022 08:34:39 PM IST
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U3  input GND Net-_U1-Pad1_ Net-_U1-Pad2_ adc_bridge_2		
+U2  Net-_U1-Pad12_ Net-_U1-Pad11_ Net-_U1-Pad10_ Net-_U1-Pad9_ Net-_U1-Pad8_ Net-_U2-Pad6_ Net-_U2-Pad7_ Net-_U2-Pad8_ Net-_U2-Pad9_ Net-_U2-Pad10_ dac_bridge_5		
+U4  Net-_U1-Pad7_ Net-_U1-Pad6_ Net-_U1-Pad5_ Net-_U1-Pad4_ Net-_U1-Pad3_ Net-_U4-Pad6_ Net-_U4-Pad7_ Net-_U4-Pad8_ Net-_U4-Pad9_ Net-_U4-Pad10_ dac_bridge_5		
+X3  Net-_U2-Pad8_ Net-_X1-Pad2_ Net-_SC6-Pad1_ Net-_X1-Pad4_ dacSwitch_subckt		
+X4  Net-_U2-Pad9_ Net-_X1-Pad2_ Net-_SC8-Pad1_ Net-_X1-Pad4_ dacSwitch_subckt		
+X5  Net-_U2-Pad10_ Net-_X1-Pad2_ Net-_SC10-Pad1_ Net-_X1-Pad4_ dacSwitch_subckt		
+X6  Net-_U4-Pad6_ Net-_X1-Pad2_ Net-_SC12-Pad1_ Net-_X1-Pad4_ dacSwitch_subckt		
+X7  Net-_U4-Pad7_ Net-_X1-Pad2_ Net-_SC14-Pad1_ Net-_X1-Pad4_ dacSwitch_subckt		
+X8  Net-_U4-Pad8_ Net-_X1-Pad2_ Net-_SC16-Pad1_ Net-_X1-Pad4_ dacSwitch_subckt		
+X9  Net-_U4-Pad9_ Net-_X1-Pad2_ Net-_SC19-Pad1_ Net-_X1-Pad4_ dacSwitch_subckt		
+X10  Net-_U4-Pad10_ Net-_X1-Pad2_ Net-_SC21-Pad1_ Net-_X1-Pad4_ dacSwitch_subckt		
+v1  Net-_X1-Pad2_ GND DC		
+v2  Net-_X1-Pad4_ GND DC		
+v3  input GND pulse		
+scmode1  SKY130mode		
+U6  input plot_v1		
+SC3  Net-_SC3-Pad1_ Net-_SC1-Pad2_ sky130_fd_pr__cap_mim_m3_1		
+X1  Net-_U2-Pad6_ Net-_X1-Pad2_ Net-_SC3-Pad1_ Net-_X1-Pad4_ dacSwitch_subckt		
+SC2  Net-_SC1-Pad2_ GND sky130_fd_pr__cap_mim_m3_1		
+X2  Net-_U2-Pad7_ Net-_X1-Pad2_ Net-_SC4-Pad1_ Net-_X1-Pad4_ dacSwitch_subckt		
+SC1  Net-_SC1-Pad1_ Net-_SC1-Pad2_ sky130_fd_pr__cap_mim_m3_1		
+SC4  Net-_SC4-Pad1_ Net-_SC1-Pad1_ sky130_fd_pr__cap_mim_m3_1		
+SC6  Net-_SC6-Pad1_ Net-_SC5-Pad1_ sky130_fd_pr__cap_mim_m3_1		
+SC5  Net-_SC5-Pad1_ Net-_SC1-Pad1_ sky130_fd_pr__cap_mim_m3_1		
+SC7  Net-_SC7-Pad1_ Net-_SC5-Pad1_ sky130_fd_pr__cap_mim_m3_1		
+SC8  Net-_SC8-Pad1_ Net-_SC7-Pad1_ sky130_fd_pr__cap_mim_m3_1		
+SC9  Net-_SC10-Pad2_ Net-_SC7-Pad1_ sky130_fd_pr__cap_mim_m3_1		
+SC10  Net-_SC10-Pad1_ Net-_SC10-Pad2_ sky130_fd_pr__cap_mim_m3_1		
+SC12  Net-_SC12-Pad1_ Net-_SC11-Pad1_ sky130_fd_pr__cap_mim_m3_1		
+SC11  Net-_SC11-Pad1_ Net-_SC10-Pad2_ sky130_fd_pr__cap_mim_m3_1		
+SC13  Net-_SC13-Pad1_ Net-_SC11-Pad1_ sky130_fd_pr__cap_mim_m3_1		
+SC14  Net-_SC14-Pad1_ Net-_SC13-Pad1_ sky130_fd_pr__cap_mim_m3_1		
+SC16  Net-_SC16-Pad1_ Net-_SC15-Pad1_ sky130_fd_pr__cap_mim_m3_1		
+SC15  Net-_SC15-Pad1_ Net-_SC13-Pad1_ sky130_fd_pr__cap_mim_m3_1		
+SC18  Net-_SC18-Pad1_ Net-_SC15-Pad1_ sky130_fd_pr__cap_mim_m3_1		
+SC20  op_in Net-_SC18-Pad1_ sky130_fd_pr__cap_mim_m3_1		
+SC19  Net-_SC19-Pad1_ Net-_SC18-Pad1_ sky130_fd_pr__cap_mim_m3_1		
+SC21  Net-_SC21-Pad1_ op_in sky130_fd_pr__cap_mim_m3_1		
+U1  Net-_U1-Pad1_ Net-_U1-Pad2_ Net-_U1-Pad3_ Net-_U1-Pad4_ Net-_U1-Pad5_ Net-_U1-Pad6_ Net-_U1-Pad7_ Net-_U1-Pad8_ Net-_U1-Pad9_ Net-_U1-Pad10_ Net-_U1-Pad11_ Net-_U1-Pad12_ avishek_10bitcounter		
+U7  op_in plot_v1		
+
+.end

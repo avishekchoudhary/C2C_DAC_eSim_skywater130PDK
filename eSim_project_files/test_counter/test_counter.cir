@@ -1,0 +1,27 @@
+* /home/choudharyabhi2015/eSim-Workspace/test_counter/test_counter.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Sat 08 Oct 2022 09:02:23 PM IST
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+v1  input GND pulse		
+U2  input plot_v1		
+U5  Net-_U1-Pad3_ Net-_U1-Pad4_ Net-_U1-Pad5_ Net-_U1-Pad6_ Net-_U1-Pad7_ Net-_U1-Pad8_ Net-_U1-Pad9_ Net-_U1-Pad10_ out9 out8 out7 out6 out5 out4 out3 out2 dac_bridge_8		
+U4  Net-_U1-Pad11_ Net-_U1-Pad12_ out1 out0 dac_bridge_2		
+U3  input GND Net-_U1-Pad1_ Net-_U1-Pad2_ adc_bridge_2		
+scmode1  SKY130mode		
+U1  Net-_U1-Pad1_ Net-_U1-Pad2_ Net-_U1-Pad3_ Net-_U1-Pad4_ Net-_U1-Pad5_ Net-_U1-Pad6_ Net-_U1-Pad7_ Net-_U1-Pad8_ Net-_U1-Pad9_ Net-_U1-Pad10_ Net-_U1-Pad11_ Net-_U1-Pad12_ avishek_10bitcounter		
+U14  out9 plot_v1		
+U13  out8 plot_v1		
+U11  out7 plot_v1		
+U8  out6 plot_v1		
+U7  out5 plot_v1		
+U15  out2 plot_v1		
+U12  out3 plot_v1		
+U9  out4 plot_v1		
+U10  out1 plot_v1		
+U6  out0 plot_v1		
+
+.end

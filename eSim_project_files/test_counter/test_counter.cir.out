@@ -1,0 +1,58 @@
+* /home/choudharyabhi2015/esim-workspace/test_counter/test_counter.cir
+
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__diode_pd2nw_11v0.model.spice"
+.lib "/usr/share/local/sky130_fd_pr/models/sky130.lib.spice" tt
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__linear.model.spice"
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__diode_pw2nd_11v0.model.spice"
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__inductors.model.spice"
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__pnp.model.spice"
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__r+c.model.spice"
+v1  input gnd pulse(0 5 0 0 0 1 2)
+* u2  input plot_v1
+* u5  net-_u1-pad3_ net-_u1-pad4_ net-_u1-pad5_ net-_u1-pad6_ net-_u1-pad7_ net-_u1-pad8_ net-_u1-pad9_ net-_u1-pad10_ out9 out8 out7 out6 out5 out4 out3 out2 dac_bridge_8
+* u4  net-_u1-pad11_ net-_u1-pad12_ out1 out0 dac_bridge_2
+* u3  input gnd net-_u1-pad1_ net-_u1-pad2_ adc_bridge_2
+* s c m o d e
+* u1  net-_u1-pad1_ net-_u1-pad2_ net-_u1-pad3_ net-_u1-pad4_ net-_u1-pad5_ net-_u1-pad6_ net-_u1-pad7_ net-_u1-pad8_ net-_u1-pad9_ net-_u1-pad10_ net-_u1-pad11_ net-_u1-pad12_ avishek_10bitcounter
+* u14  out9 plot_v1
+* u13  out8 plot_v1
+* u11  out7 plot_v1
+* u8  out6 plot_v1
+* u7  out5 plot_v1
+* u15  out2 plot_v1
+* u12  out3 plot_v1
+* u9  out4 plot_v1
+* u10  out1 plot_v1
+* u6  out0 plot_v1
+a1 [net-_u1-pad3_ net-_u1-pad4_ net-_u1-pad5_ net-_u1-pad6_ net-_u1-pad7_ net-_u1-pad8_ net-_u1-pad9_ net-_u1-pad10_ ] [out9 out8 out7 out6 out5 out4 out3 out2 ] u5
+a2 [net-_u1-pad11_ net-_u1-pad12_ ] [out1 out0 ] u4
+a3 [input gnd ] [net-_u1-pad1_ net-_u1-pad2_ ] u3
+a4 [net-_u1-pad1_ ] [net-_u1-pad2_ ] [net-_u1-pad3_ net-_u1-pad4_ net-_u1-pad5_ net-_u1-pad6_ net-_u1-pad7_ net-_u1-pad8_ net-_u1-pad9_ net-_u1-pad10_ net-_u1-pad11_ net-_u1-pad12_ ] u1
+* Schematic Name:                             dac_bridge_8, NgSpice Name: dac_bridge
+.model u5 dac_bridge(out_low=0 out_high=5 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_2, NgSpice Name: dac_bridge
+.model u4 dac_bridge(out_low=0 out_high=5 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_2, NgSpice Name: adc_bridge
+.model u3 adc_bridge(in_low=0 in_high=5 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             avishek_10bitcounter, NgSpice Name: avishek_10bitcounter
+.model u1 avishek_10bitcounter(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+.tran 0.1e-00 400e-00 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(input)
+plot v(out9)
+plot v(out8)
+plot v(out7)
+plot v(out6)
+plot v(out5)
+plot v(out2)
+plot v(out3)
+plot v(out4)
+plot v(out1)
+plot v(out0)
+.endc
+.end
