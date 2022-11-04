@@ -53,7 +53,7 @@ Also to tell simulator about digital and analog signals
 I have used adc_bridge and dac_bridge.
 </br>
 A component called dacSwitch_subckt is also designed, It is used 
-a mux with will latch a Vdd when one comes and latch Zero when zero comes at
+as a mux which will latch  Vdd when one comes and latch Zero when zero comes at
 input.
 </br>
 
